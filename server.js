@@ -6,8 +6,8 @@ app.use(cors({ origin: '*' }));
 app.options('*', cors());
 app.use(express.json());
 
-const CLIENT_ID     = 'e5f4a930-a2da-4ade-8b73-f6179d4c934b';
-const CLIENT_SECRET = 'a558cc34-db05-4ffa-8ffd-7ac653cbc5f0';
+const CLIENT_ID     = '2f081294-6690-414a-a3da-75943d97c721';
+const CLIENT_SECRET = 'gdpNcICjohN5M3HYOHeFJzaK_dAp6a46hHtKThpAcko';
 
 app.get('/', (req, res) => {
   res.json({ status: 'ok', message: 'Nexus Backend rodando!' });
